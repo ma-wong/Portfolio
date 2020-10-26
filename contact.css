@@ -1,0 +1,18 @@
+/* Nav Bar */
+.navbar-brand {
+    font-size: 20pt;
+    font-family: monospace;
+}
+
+/* Contact Card */
+.card {
+    margin-top: 100px;
+}
+
+.card-header {
+    font-size: 30pt;
+}
+
+.card-body {
+    background-color: #fff;
+}
