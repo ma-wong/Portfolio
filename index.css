@@ -1,0 +1,16 @@
+/* Nav Bar */
+.navbar-brand {
+    font-size: 20pt;
+    font-family: monospace;
+}
+
+
+/* About Me */
+.about-me {
+    margin-top: 100px;
+}
+
+.card-header {
+    font-size: 30pt;
+}
+
