@@ -1,0 +1,20 @@
+/* Nav Bar */
+.navbar-brand {
+    font-size: 20pt;
+    font-family: monospace;
+}
+
+/* Portfolio Card */
+.card {
+    margin-top: 80px;
+}
+
+.card-header {
+    font-size: 30pt;
+}
+
+.card-body img {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
