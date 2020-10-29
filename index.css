@@ -14,3 +14,7 @@
     background-color: rgb(182, 200, 218);
 }
 
+.card img {
+    height: 300px;
+    width: 300px;
+}
