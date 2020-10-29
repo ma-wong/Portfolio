@@ -14,4 +14,4 @@ Although it's not finished, this sections serves as a brief introduction about w
 The different images represent the finished products of projects that I would like to showcase. 
 
 ### Contact Page
-This form allows the user to input their information and send any questions,comments, or concerns directly to me.
+This form allows the user to input their information and send any questions, comments, or concerns directly to me.
