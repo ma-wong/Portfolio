@@ -1,0 +1,105 @@
+.intro {
+    text-align: center;
+}
+
+#navbarNavDropdown {
+    align-content: center;
+    font-size: 15pt;
+}
+
+.container-fluid {
+    width: max-content;
+}
+
+#logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.navbar-expand {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.nav-link {
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+.hexagon {
+    position: relative;
+    width: 200px; 
+    height: 115.47px;
+    margin: 57.74px 0;
+    background-image: url(http://csshexagon.com/img/meow.jpg);
+    background-size: auto 224.0119px;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.95);
+    border-left: solid 3px #333333;
+    border-right: solid 3px #333333;
+}
+  
+.hexTop,
+.hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 141.42px;
+    height: 141.42px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 26.29px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.95);
+}
+  
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 194.0000px;
+    height: 112.00595222278741px;
+    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-56.0030px);
+    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-56.0030px);
+    transform:          rotate(45deg) scaleY(1.7321) translateY(-56.0030px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+}
+  
+.hexTop {
+    top: -70.7107px;
+    border-top: solid 4.2426px #333333;
+    border-right: solid 4.2426px #333333;
+}
+  
+.hexTop:after {
+    background-position: center top;
+}
+  
+.hexBottom {
+    bottom: -70.7107px;
+    border-bottom: solid 4.2426px #333333;
+    border-left: solid 4.2426px #333333;
+}
+  
+.hexBottom:after {
+    background-position: center bottom;
+}
+  
+.hexagon:after {
+    content: "";
+    position: absolute;
+    top: 1.7321px;
+    left: 0;
+    width: 194.0000px;
+    height: 112.0060px;
+    z-index: 2;
+    background: inherit;
+}
+
