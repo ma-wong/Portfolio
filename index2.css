@@ -4,13 +4,23 @@ body {
     /* background-color: #EBE8E7; */
     /* background-color: #161B40; */
     /* background-color: #082340; */
-    background-color: #363538;
+    /* background-color: #363538; */
+    /* background-color: #e7e9f0; */
+    /* background-color: #D6D6D6; */
+    /* background-color: #d2d3d3; */
+    /* background-color: #F3F3F3; */
+    /* background-color: #EDEDED; */
+    background-image: url(./assets/imgs/background3.jpeg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 /* Intro text */
 .intro {
     text-align: center;
-    color: honeydew;
+    color: black;
 }
 
 h1 {
@@ -65,7 +75,7 @@ h1 {
     background-image: url(http://csshexagon.com/img/meow.jpg);
     background-size: auto 224.0119px;
     background-position: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.95);
+    box-shadow: 0 0 20px rgba(41,41,41,1);
     border-left: solid 3px #333333;
     border-right: solid 3px #333333;
     margin-right: auto;
@@ -112,7 +122,7 @@ h1 {
     transform: scaleY(0.5774) rotate(-45deg);
     background: inherit;
     left: 26.29px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.95);
+    box-shadow: 0 0 20px rgba(41,41,41,1);
 }
   
 /*counter transform the bg image on the caps*/
