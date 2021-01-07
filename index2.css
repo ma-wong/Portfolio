@@ -1,10 +1,34 @@
-.intro {
-    text-align: center;
+body {
+    /* background-color: #F6F6F2; */
+    /* background-color: #DED1BD; */
+    /* background-color: #EBE8E7; */
+    /* background-color: #161B40; */
+    /* background-color: #082340; */
+    background-color: #363538;
 }
 
+/* Intro text */
+.intro {
+    text-align: center;
+    color: honeydew;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+#intro-content {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+/* Navbar Content */
+#navbar-content {
+    margin-top: 2rem;
+}
 #navbarNavDropdown {
     align-content: center;
-    font-size: 15pt;
+    font-size: 16pt;
 }
 
 .container-fluid {
@@ -12,10 +36,8 @@
 }
 
 #logo {
-    width: 5rem;
-    height: 5rem;
-    /* margin-left: auto;
-    margin-right: auto; */
+    width: 6rem;
+    height: 6rem;
 }
 
 .navbar-expand {
@@ -24,12 +46,17 @@
 }
 .nav-link {
     padding-top: 1.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 1pt;
 }
 
 
 
+
+/* Hexagon Content */
 .hexagon {
     position: relative;
     width: 200px; 
@@ -44,7 +71,35 @@
     margin-right: auto;
     margin-left: auto;
 }
-  
+
+#hexagon-1 {
+    background-image: url("./assets/imgs/mysql-logo.png");
+}
+
+#hexagon-2 {
+    background-image: url("./assets/imgs/js-logo.png");
+}
+
+#hexagon-3 {
+    background-image: url("./assets/imgs/nodejs-logo.png");
+}
+
+#hexagon-4 {
+    background-image: url("./assets/imgs/html-logo.png");
+}
+
+#hexagon-5 {
+    background-image: url("./assets/imgs/mongodb-logo.jpg");
+}
+
+#hexagon-6 {
+    background-image: url("./assets/imgs/react-logo.jpg");
+}
+
+#hexagon-7 {
+    background-image: url("./assets/imgs/css-logo.png");
+}
+
 .hexTop,
 .hexBottom {
     position: absolute;
@@ -107,6 +162,19 @@
     background: inherit;
 }
 
-/* .top-row {
-    margin: 1rem;
-} */
+.bottom-row-hex {
+    margin-top: 1.5rem;
+}
+
+.outer-bottom-left {
+    margin-right: 0rem;
+}
+
+.outer-bottom-right {
+    margin-left: 0rem;
+}
+
+
+
+
+
