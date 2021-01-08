@@ -29,6 +29,18 @@
     text-decoration-thickness: 1pt;
 }
 
+/* Header */
+h1 {
+    text-align: center;
+    font-size: 40pt;
+    margin-bottom: 2rem;
+}
+
+/* Projects Content */
 .project-imgs {
     column-width: 100%;
+}
+
+h5 {
+    font-size: 20pt;
 }
