@@ -1,0 +1,34 @@
+
+/* Navbar Content */
+#navbar-content {
+    margin-top: 2rem;
+}
+#navbarNavDropdown {
+    font-size: 16pt;
+}
+
+.container-fluid {
+    width: max-content;
+}
+
+#logo {
+    width: 6rem;
+    height: 6rem;
+}
+
+.navbar-expand {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.nav-link {
+    padding-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 1pt;
+}
+
+.project-imgs {
+    column-width: 100%;
+}
