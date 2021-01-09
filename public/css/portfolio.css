@@ -1,6 +1,6 @@
 
 /* Navbar Content */
-#navbar-content {
+/* #navbar-content {
     margin-top: 2rem;
 }
 #navbarNavDropdown {
@@ -24,6 +24,32 @@
     padding-top: 1.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 1pt;
+} */
+
+/* Navbar Content */
+#navbar-content {
+    margin-top: 2rem;
+}
+#navbarNavDropdown {
+    font-size: 16pt;
+}
+
+.container-fluid {
+    width: max-content;
+}
+
+#logo {
+    width: 6rem;
+    height: 6rem;
+}
+
+.nav-link {
+    padding-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     text-decoration-line: underline;
     text-decoration-style: double;
     text-decoration-thickness: 1pt;

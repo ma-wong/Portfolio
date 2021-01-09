@@ -48,19 +48,13 @@ h1 {
     height: 6rem;
 }
 
-/* .navbar-expand {
-    padding-left: 2rem;
-    padding-right: 2rem;
-} */
-
 .nav-link {
     padding-top: 1.5rem;
-    /* margin-left: 1rem;
-    margin-right: 1rem; */
+    margin-left: 1rem;
+    margin-right: 1rem;
     text-decoration-line: underline;
     text-decoration-style: double;
     text-decoration-thickness: 1pt;
-    text-align: center;
 }
 
 
