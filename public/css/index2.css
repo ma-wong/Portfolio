@@ -48,10 +48,14 @@ h1 {
 
 .nav-link {
     padding-top: 1.5rem;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline;
     text-decoration-style: double;
-    text-decoration-thickness: 1pt;
+    text-decoration-thickness: 1pt; */
     color: black;
+}
+
+hr {
+    margin: 0rem 2rem;
 }
 
 
@@ -65,7 +69,7 @@ h1 {
     margin: 57.74px 0;
     background-size: auto 224.0119px;
     background-position: center;
-    box-shadow: 0 0 20px rgba(255,255,255,1);
+    box-shadow: 0 0 20px rgba(0,0,0,1);
     border-left: solid 3px #ffffff;
     border-right: solid 3px #ffffff;
     margin-right: auto;
@@ -112,10 +116,10 @@ h1 {
     transform: scaleY(0.5774) rotate(-45deg);
     background: inherit;
     left: 26.29px;
-    box-shadow: 0 0 20px rgba(255,255,255,1);
+    box-shadow: 0 0 20px rgba(0,0,0,1);
 }
   
-/*counter transform the bg image on the caps*/
+
 .hexTop:after,
 .hexBottom:after {
     content: "";
