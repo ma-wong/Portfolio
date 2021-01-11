@@ -9,17 +9,17 @@ body {
     /* background-color: #D6D6D6; */
     /* background-color: #d2d3d3; */
     /* background-color: #F3F3F3; */
-    /* background-color: #EDEDED; */
-    background-image: url("../assets/imgs/background3.jpeg");
+    background-color: #EDEDED;
+    /* background-image: url("../assets/imgs/background5.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
 }
 
 /* Intro text */
 h1 {
-    margin-bottom: 1rem;
+    margin: 1.5rem 0rem 2rem 0rem;
     font-size: 40pt;
 }
 
@@ -28,6 +28,7 @@ h1 {
     margin-top: 2rem;
     font-size: 17pt;
     text-align: center;
+    color: black;
 }
 
 
@@ -35,12 +36,9 @@ h1 {
 #navbar-content {
     margin-top: 2rem;
 }
+
 #navbarNavDropdown {
     font-size: 16pt;
-}
-
-.container-fluid {
-    width: max-content;
 }
 
 #logo {
@@ -50,11 +48,10 @@ h1 {
 
 .nav-link {
     padding-top: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
     text-decoration-line: underline;
     text-decoration-style: double;
     text-decoration-thickness: 1pt;
+    color: black;
 }
 
 
