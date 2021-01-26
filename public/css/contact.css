@@ -1,0 +1,84 @@
+body {
+    background-color: #EDEDED;
+}
+
+/* Navbar Content */
+#navbar-content {
+    margin-top: 2rem;
+}
+
+#navbarNavDropdown {
+    font-size: 16pt;
+}
+
+#logo {
+    width: 6rem;
+    height: 6rem;
+}
+
+.nav-link {
+    padding-top: 1.5rem;
+    /* text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 1pt; */
+    color: black;
+}
+
+hr {
+    margin: 0rem 2rem;
+}
+
+/* Contact Info */
+h2 {
+    text-align: center;
+}
+
+.contact-container {
+    margin-top: 2rem;
+}
+
+.card {
+    height: 500px;
+    margin-top: 1rem;
+}
+
+textarea {
+    height: 200px;
+}
+
+#contact-form {
+    margin-top: 1rem;
+}
+
+h3,
+p {
+    margin: 3rem 0rem;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+.card-link {
+    font-size: 18pt;
+    text-align: center;
+    color: gold;
+}
+
+#download-btn {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    font-size: 17pt;
+}
+
+#submit-btn {
+    font-size: 16pt;
+}
